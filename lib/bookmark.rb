@@ -1,6 +1,6 @@
 class Bookmark
 
-  def self.all
+  def show_bookmarks
    [ 'http://www.google.com',
    'http://www.facebook.com',
     'http://www.instagram.com',

@@ -2,7 +2,7 @@
 
     
     <ol type="1">
-        <% @bookmarks.each do |bookmark| %>
+        <% @bookmarks.map do |bookmark| %>
         <li><%= bookmark %></li>
     <% end %>
     </ol>
