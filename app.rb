@@ -11,7 +11,7 @@ class BookmarkManager < Sinatra::Base
 
     # Routes
     get '/' do
-
+        p ENV
         @bookmarks = Bookmark.new.show_bookmarks
         erb :index
 

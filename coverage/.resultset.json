@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/vanessaflorio/Desktop/bookmark_challenge/bookmark_manager/spec/bookmark_spec.rb": {
+      "/Users/mehmetucarucar/Desktop/makers/makers-projects/weekday-challanges/bookmark_manager/spec/bookmark_spec.rb": {
         "lines": [
           1,
           null,
@@ -9,19 +9,22 @@
           1,
           1,
           1,
-          1,
-          1,
-          1,
-<<<<<<< HEAD
-=======
           null,
->>>>>>> a476213088f9c55558a39df3efc6921e1061c782
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
           null,
           null,
           null
         ]
       },
-      "/Users/vanessaflorio/Desktop/bookmark_challenge/bookmark_manager/spec/features/view_bookmark_spec.rb": {
+      "/Users/mehmetucarucar/Desktop/makers/makers-projects/weekday-challanges/bookmark_manager/spec/features/view_bookmark_spec.rb": {
         "lines": [
           1,
           1,
@@ -30,15 +33,17 @@
           1,
           1,
           null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-<<<<<<< HEAD
-    "timestamp": 1641913807
-=======
-    "timestamp": 1641907497
->>>>>>> a476213088f9c55558a39df3efc6921e1061c782
+    "timestamp": 1641924075
   }
 }
