@@ -1,9 +1,11 @@
-class Bookmark
+require 'pg'
 
-  def show_bookmarks
-   [ 'http://www.google.com',
-   'http://www.facebook.com',
-    'http://www.instagram.com',
-   'http://www.makersacademy.com']
+class Bookmark
+    
+  def self.show_bookmarks
+   connection = PG.connect(dbname: 'bookmark_manager')
+   result = connection.exec('SELECT * FROM bookmarks;')
+   result.map { |bookmark| bookmark['url'] }
+       
   end
 end
