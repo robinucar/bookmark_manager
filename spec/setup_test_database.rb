@@ -1,6 +1,6 @@
 require 'pg'
 def setup_test_database
-p 'Setting up test database...'
+p "Setting up test database...#{self}"
 connection = PG.connect(dbname: 'bookmark_manager_test')
 
 # Clear the bookmarks table

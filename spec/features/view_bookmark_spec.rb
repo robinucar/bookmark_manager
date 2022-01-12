@@ -5,7 +5,7 @@ feature 'Viewing bookmark manager' do
     connection.exec("INSERT INTO bookmarks VALUES(2, 'http://www.destroyallsoftware.com');")
     connection.exec("INSERT INTO bookmarks VALUES(3, 'http://www.google.com');")
 
-    save_and_show
+    visit('/')
   
     
     expect(page).to have_content 'google.com'
