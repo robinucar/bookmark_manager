@@ -1,3 +1,4 @@
+require 'pg'
 feature 'Viewing bookmark manager' do
  scenario 'visit web page' do
     connection = PG.connect(dbname: 'bookmark_manager_test')

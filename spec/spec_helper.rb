@@ -1,5 +1,4 @@
 require_relative './setup_test_database.rb'
-ENV['RACK_ENV'] = 'test'
 ENV['ENVIRONMENT'] = 'test'
 
 
