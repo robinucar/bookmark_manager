@@ -20,12 +20,19 @@
           1,
           1,
           1,
+          1,
+          1,
           null,
           null,
           null,
           1,
           1,
           null,
+          1,
+          1,
+          null,
+          1,
+          1,
           1,
           1,
           null,
@@ -37,6 +44,7 @@
       },
       "/Users/mehmetucarucar/Desktop/makers/makers-projects/weekday-challanges/bookmark_manager/spec/features/add_bookmarks_spec.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -56,10 +64,8 @@
           1,
           1,
           1,
-          1,
           null,
           1,
-          null,
           null,
           1,
           1,
@@ -69,6 +75,6 @@
         ]
       }
     },
-    "timestamp": 1642108022
+    "timestamp": 1642157734
   }
 }
